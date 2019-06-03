@@ -8,10 +8,31 @@
   font-size: 20px;
 }
 
-
 .topnav a.active {
   background-color: #4CAF50;
   color: white;
 }
-</style>
-</head>
+
+button {
+  background-color: rgb(77, 187, 63);
+  border: none;
+  border-radius: 5%;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+footer {
+  background-image: url("../img/soup.jpg");
+  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
