@@ -2,33 +2,69 @@
 <html>
 	<head>
 		<title>About Us</title>
-		<!--<link href="https://fonts.googleapis.com/css?family=Indie+Flower|Roboto" rel="stylesheet">-->
-		<link rel="stylesheet" href="./CSS/index.css">
+		<link rel="stylesheet" href="./CSS/aboutus.css">
+		<script src="js/aboutus.js" async></script>
+
 	</head>
 	<body>
-		<script defer="defer" src="./components/Dropdown/Dropdown.js"></script>
-		<script defer="defer" src="./components/Tabs/Tabs.js"></script>
-		
+
 		<div class = "container">
 			<header>
 				<div class="topnav">
 					<a href="#About">About Us</a>
-					<a href="#home">Home</a>
+					<a href="index.html">Home</a>
 					<h2>About Us</h2>
 					<a href="#sign">Sign In</a>
 					<a href="#started">Get Started</a>
 				</div>
 			</header>
 
-			<div class="sectiontwo">
-				<div class="box-title">Ian Castillo</div>
-				<div class="box-description">Experienced web developer and startup hustler.</div>
+			<div class = "bio">
+
+				<div class="sectionpink">
+					<div class = "img-containerGogh"><img src="./img/female.jpeg"></div>
+					<div class="box-title">Alexis Haebin Kim</div>
+					<div class="box-description">Experienced product manager and web developer. Alexis shipped numerous products in the e-commerce industry over the past ten years, and is experienced in full stack development. Her side interests are in AI applications and Augmented Reality infrastructure. She is proficient in HTML, CSS, Javascript, GraphQL, SQL, R, Python, Stata and React Native. Outside of work, Alexis spends her time doing clay and fabric sculptures.</div>
+				</div>
+
+				<div class="sectionblue">
+					<div class = "img-containerGogh"><img src="./img/male.jpeg"></div>
+					<div class="box-title">Ian Castillo</div>
+					<div class="box-description">Experienced web developer and startup hustler. Known for his keen eye for user experience, Ian has received numerous awards in Designer's guild. He is proficient in CSS, HTML, React, Javascript, Python, SQL and R. Outside of work, Ian is an avid reader of science fiction, 18th century european Novels, and an electric scooter enthusiast. </div>
+				</div>
+
 			</div>
 
-			<div class="sectiontwo">
-				<div class="box-title">Alexis Haebin Kim</div>
-				<div class="box-description">Experienced product manager and web developer.</div>
+			<div class = "middle"><h2>Past Projects</h2></div>
+			
+
+			<div class ="tab-navigator">
+
+				<div class = "tab-links">
+					<div class = "link" data-tab="1">Design</div>
+					<div class = "link" data-tab="2">Volunteering</div>
+					<div class = "link" data-tab="3">Engineering</div>
+				</div>
+
+				<div class = "tab-content">
+					<div class = "content" data-tab="1">
+						<h3>Design</h3>
+						<p>Alexis and Ian took part in many design consulting projects, that helped businesses and non-profit orgnizations re-think their operations. Seattle soup kitchen, San Francisco soup kitchen and Portland city central soup kitchen are their latest projects with design. </p>
+					</div>
+
+					<div class = "content" data-tab="2">
+							<h3>Volunteering</h3>
+							<p>Alexis and Ian took part in many design consulting projects, that helped businesses and non-profit orgnizations re-think their operations. Seattle soup kitchen, San Francisco soup kitchen and Portland city central soup kitchen are their latest projects with design. </p>
+					</div>
+	
+					<div class = "content" data-tab="3">
+						<h3>Engineering</h3>
+						<p>Alexis and Ian took part in many design consulting projects, that helped businesses and non-profit orgnizations re-think their operations. Seattle soup kitchen, San Francisco soup kitchen and Portland city central soup kitchen are their latest projects with design. </p>
+					</div>
+
+				</div>
 			</div>
+
 		</div>
 	</body>
 </html>
