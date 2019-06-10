@@ -3,13 +3,13 @@
 const sec1 = document.querySelector('.sectionpink');
 
 sec1.addEventListener('mouseover', function(event){
-  event.target.style.backgroundColor='pink';
+  event.target.style.backgroundColor='orange';
 });
 
 const sec2 = document.querySelector('.sectionblue');
 
 sec2.addEventListener('mouseover', function(event){
-  event.target.style.backgroundColor='teal';
+  event.target.style.backgroundColor='#4CAF50';
 });
 
 //Tab navigation
