@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  box-sizing: border-box;
+  min-width: 300px;
+  margin: 0;
+}
+.topnav {
+  display: flex;
+  justify-content: space-between;
+  margin: 2%;
+}
+.box-title {
+  font-size: 2em;
+  margin: 1%;
+}
+.box-description {
+  font-size: 1em;
+  margin: 1%;
+}
+.bio {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 5%;
+  width: 70%;
+  padding: 30%;
+  border-style: solid;
+}
